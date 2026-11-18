@@ -10,8 +10,8 @@ import {
 } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 
-import { Toaster } from "@/components/ui/sonner";
-import { AppHeader } from "@/components/AppHeader";
+import { Toaster } from "@/presentation/ui/sonner";
+import { AppHeader } from "@/presentation/components/layout/AppHeader";
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
